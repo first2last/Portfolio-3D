@@ -51,7 +51,7 @@ const Hero = () => {
     };
 
     const getResponsivePosition = () => {
-        if (isSmallMobile) return [-7.3, -5.2, 4.5];     // Much higher for small phones
+        if (isSmallMobile) return [-5.5, -5.2, 4.5];     // Much higher for small phones
         if (isMobile) return [-5.9, -6.3, 4.5];          // Higher for mobile devices
         if (isTabletPortrait) return [-11, -14.2, 4.5];  // Higher for tablet portrait
         if (isTabletLandscape) return [-12.9, -16.2, 4.5]; // Higher for tablet landscape
