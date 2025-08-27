@@ -63,7 +63,7 @@ const Hero = () => {
 
     // Function to get responsive top margin for text content
     const getResponsiveTextMargin = () => {
-        if (isSmallMobile) return 'mt-12 sm:mt-16';       // Extra margin for small phones
+        if (isSmallMobile) return 'mt-12 sm:mt-20';       // Extra margin for small phones
         if (isMobile) return 'mt-16 sm:mt-20';            // More margin for mobile
         if (isTabletPortrait) return 'mt-20 sm:mt-24';    // Higher margin for tablet portrait
         if (isTabletLandscape) return 'mt-18 sm:mt-22';   // More space for tablet landscape
