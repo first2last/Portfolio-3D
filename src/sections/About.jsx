@@ -81,12 +81,21 @@ const About = () => {
                         <img src="assets/grid3.png" alt="grid-3" className="w-full sm:h-[266px] h-fit object-contain" />
 
                         <div>
-                            <p className="grid-headtext">My Passion for Coding</p>
+                            <p className="grid-headtext">My Resume</p>
                             <p className="grid-subtext">
-                                I love solving problems and building things through code. Programming isn&apos;t just my
-                                profession—it&apos;s my passion. I enjoy exploring new technologies, and enhancing my skills.
+                                Here’s a quick look at my journey, skills, and projects so far.
+                                You can download or view my resume to get more details about my background
+                                and experience.
                             </p>
+                            <a
+                                href="https://drive.google.com/file/d/1VXUQ3Hsk1SQxAUVRTH6KazUDoJ_3vmzC/view?usp=sharing"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <Button name="View Resume" isBeam containerClass="w-full mt-10" />
+                            </a>
                         </div>
+
                     </div>
                 </div>
 
