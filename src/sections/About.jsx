@@ -76,11 +76,11 @@ const About = () => {
                     </div>
                 </div>
 
-                <div className="xl:col-span-2 xl:row-span-3">
+                <div className="xl:col-span-2 xl:row-span-3" id='resume'>
                     <div className="grid-container">
                         <img src="assets/grid3.png" alt="grid-3" className="w-full sm:h-[266px] h-fit object-contain" />
 
-                        <div id="resume">
+                        <div>
                             <p className="grid-headtext">My Resume</p>
                             <p className="grid-subtext">
                                 Here’s a quick look at my journey, skills, and projects so far.

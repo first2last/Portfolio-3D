@@ -11,7 +11,7 @@ const Navbar = () => {
                 {navLinks.map(({ id, href, name }) => (
                     <li key={id} className="nav-li">
                         {name === "Resume" ? (
-                            <a href={href} target="_blank" rel="noopener noreferrer">
+                            <a href={href} rel="noopener noreferrer">
                                 <Button name="Resume" isBeam containerClass="px-4 py-2" />
                             </a>
                         ) : (
