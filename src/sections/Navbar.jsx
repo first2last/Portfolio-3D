@@ -1,21 +1,30 @@
 import React, { useState } from 'react';
 import { navLinks } from "../constants/index.js";
+import Button from '../components/Button.jsx';
 
 const Navbar = () => {
+
 
     const NavItems = () => {
         return (
             <ul className="nav-ul">
                 {navLinks.map(({ id, href, name }) => (
                     <li key={id} className="nav-li">
-                        <a className="nav-li_a" href={href} onClick={() => {}}>
-                            {name}
-                        </a>
+                        {name === "Resume" ? (
+                            <a href={href} target="_blank" rel="noopener noreferrer">
+                                <Button name="Resume" isBeam containerClass="px-4 py-2" />
+                            </a>
+                        ) : (
+                            <a className="nav-li_a" href={href}>
+                                {name}
+                            </a>
+                        )}
                     </li>
                 ))}
             </ul>
-        )
-    }
+        );
+    };
+
 
     const [isOpen, setIsOpen] = useState(false);
 

@@ -80,7 +80,7 @@ const About = () => {
                     <div className="grid-container">
                         <img src="assets/grid3.png" alt="grid-3" className="w-full sm:h-[266px] h-fit object-contain" />
 
-                        <div>
+                        <div id="resume">
                             <p className="grid-headtext">My Resume</p>
                             <p className="grid-subtext">
                                 Here’s a quick look at my journey, skills, and projects so far.
