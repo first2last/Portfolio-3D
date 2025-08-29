@@ -88,7 +88,7 @@ const About = () => {
                                 and experience.
                             </p>
                             <a
-                                href="https://drive.google.com/file/d/1VXUQ3Hsk1SQxAUVRTH6KazUDoJ_3vmzC/view?usp=sharing"
+                                href="https://drive.google.com/file/d/145Gtvq9Iw1Ew6ZEUGdHhhI-d5hptVjSd/view?usp=sharing"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
